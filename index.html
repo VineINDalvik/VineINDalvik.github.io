@@ -1,496 +1,1082 @@
-<!DOCTYPE html>
-<html>
+
+ <!DOCTYPE HTML>
+<html lang="zh-CN">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
+  <meta charset="UTF-8">
+  
+    <title>Vine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="Vine Xio">
     
 
-    <title>
-      Vine | 没有标签 | 坚持做好一件事 | 在路上 
-    </title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     
-      <meta name="author" content="Vine Xio">
-    
-    
-      <meta name="description" content="永远年轻 永远热泪盈眶">
-    
-
     <meta name="description" content="永远年轻 永远热泪盈眶">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Vine | 没有标签 | 坚持做好一件事 | 在路上">
+<meta property="og:title" content="Vine">
 <meta property="og:url" content="http://www.vinexio.me/index.html">
 <meta property="og:site_name" content="Vine">
 <meta property="og:description" content="永远年轻 永远热泪盈眶">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Vine | 没有标签 | 坚持做好一件事 | 在路上">
+<meta name="twitter:title" content="Vine">
 <meta name="twitter:description" content="永远年轻 永远热泪盈眶">
-    
-    
-      <link rel="alternate" href="/atom.xml" title="Vine" type="application/atom+xml">
-    
-    
-      <link rel="icon" type="image/x-icon" href="http://img-storage.qiniudn.com/15-7-20/3682201.jpg">
-    
-    <link rel="stylesheet" href="/css/uno.css" type="text/css">
+<meta name="twitter:creator" content="@VineXiong## e.g. jarkwu for https://twitter.com/jarkwu">
+<link rel="publisher" href="108973301705964170396## e.g. "111190881341800841449" for https://plus.google.com/u/0/111190881341800841449, the "" is needed!">
 
-    <script src="/js/jquery.min.js"></script>
-
+    
+    <link rel="alternative" href="/atom.xml" title="Vine" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/avatar.jpeg">
+    
+    
+    <link rel="apple-touch-icon" href="/img/avatar.jpeg">
+    <link rel="apple-touch-icon-precomposed" href="/img/avatar.jpeg">
+    
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
 </head>
-<body>
 
-    <span class="mobile btn-mobile-menu">
-        <i class="icon icon-list btn-mobile-menu__icon"></i>
-        <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
-    </span>
+  <body>
+    <header>
+      
+<div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/avatar.jpeg" alt="Vine" title="Vine"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="Vine">Vine</a></h1>
+				<h2 class="blog-motto">没有标签 | 坚持做好一件事 | 在路上</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">Home</a></li>
+					
+						<li><a href="/archives">Archives</a></li>
+					
+						<li><a href="/todolist">ToDo</a></li>
+					
+					<li>
+ 					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="搜索" />
+						<input type="hidden" name="q" value="site:www.vinexio.me">
+					</form>
+					
+					</li>
+				</ul>
+				<li> <a href="/atom.xml">RSS</a> </li>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main">
 
+   
     
- 
-<header class="panel-cover">
-
-
-
-  <div class="panel-main">
-
-    <div class="panel-main__inner panel-inverted">
-    <div class="panel-main__content">
-
-        
-        <a href="/" title="link to homepage for Vine"><img src="http://img-storage.qiniudn.com/15-7-20/3682201.jpg" width="80" alt="Vine logo" class="panel-cover__logo logo" /></a>
-        
-
-        <h1 class="panel-cover__title panel-title"><a href="/" title="link to homepage">Vine</a></h1>
-
-        <hr class="panel-cover__divider" />
-        <p class="panel-cover__description">
-          没有标签 | 坚持做好一件事 | 在路上
-        </p>
-        <hr class="panel-cover__divider panel-cover__divider--secondary" />
-
-        <div class="navigation-wrapper">
-
-          <nav class="cover-navigation cover-navigation--primary">
-            <ul class="navigation">
-
-              
-                
-                <li class="navigation__item"><a href="/#blog" title="" class="blog-button">Home</a></li>
-              
-                
-                <li class="navigation__item"><a href="/archives" title="" class="">Blog</a></li>
-              
-                
-                <li class="navigation__item"><a href="/about" title="" class="">About</a></li>
-              
-
-            </ul>
-          </nav>
-
-          <!-- ----------------------------
-To add a new social icon simply duplicate one of the list items from below
-and change the class in the <i> tag to match the desired social network
-and then add your link to the <a>. Here is a full list of social network
-classes that you can use:
-
-    icon-social-500px
-    icon-social-behance
-    icon-social-delicious
-    icon-social-designer-news
-    icon-social-deviant-art
-    icon-social-digg
-    icon-social-dribbble
-    icon-social-facebook
-    icon-social-flickr
-    icon-social-forrst
-    icon-social-foursquare
-    icon-social-github
-    icon-social-google-plus
-    icon-social-hi5
-    icon-social-instagram
-    icon-social-lastfm
-    icon-social-linkedin
-    icon-social-medium
-    icon-social-myspace
-    icon-social-path
-    icon-social-pinterest
-    icon-social-rdio
-    icon-social-reddit
-    icon-social-skype
-    icon-social-spotify
-    icon-social-stack-overflow
-    icon-social-steam
-    icon-social-stumbleupon
-    icon-social-treehouse
-    icon-social-tumblr
-    icon-social-twitter
-    icon-social-vimeo
-    icon-social-xbox
-    icon-social-yelp
-    icon-social-youtube
-    icon-social-zerply
-    icon-mail
-
------------------------------- -->
-
-<nav class="cover-navigation navigation--social">
-  <ul class="navigation">
-
-
-  <!-- Github -->
-  <li class="navigation__item">
-    <a href="https://github.com/someus/huno" title="Huno on GitHub">
-      <i class='icon icon-social-github'></i>
-      <span class="label">GitHub</span>
-    </a>
-  </li>
-
-  </ul>
-</nav>
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="panel-cover--overlay"></div>
-  </div>
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2015/12/07/给少女们。/" title="给少女们。" itemprop="url">给少女们。</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="https://plus.google.com/108973301705964170396## e.g. &quot;111190881341800841449&quot; for https://plus.google.com/u/0/111190881341800841449, the &quot;&quot; is needed!?rel=author" title="Vine Xio" target="_blank" itemprop="author">Vine Xio</a>
+		
+  <p class="article-time">
+    <time datetime="2015-12-06T16:07:00.000Z" itemprop="datePublished"> 发表于 2015-12-07</time>
+    
+  </p>
 </header>
-
-    <div class="content-wrapper">
-        <div class="content-wrapper__inner entry">
-            
-
-
-   <!-- do nothing -->
-
-
-<div class="main-post-list">
-    <ol class="post-list">
-    
-    
-    <li>
-
-      <h2 class="post-list__post-title post-title"><a href="/2015/12/07/给少女们。/" title="link to 给少女们。">给少女们。</a></h2>
-
-      <p class="excerpt">
+    <div class="article-content">
         
-      </p>
+        <p>肚子上的肉肉又变软了呢。</p>
+<p>就好像刚才看到的文章里说成熟意味着不再许不切实际的愿望。我想放任自己行为思想游离几日，顾盼睥睨。把自己放入生活的琐事之中，而不是停留在那里思考生活的意义。写到这里想到了绿子，一个想象着就很可爱的少女。</p>
+<p>迪伦的《Like a Rolling Stone》总是让我觉得当前做的事都拽拽的。整个人都duang起来。瞬间觉得，情感的阀门被打开了随意倾泻，但还是需要理性的节制。限制才能精致。矛盾体。</p>
+<p>给少女们。</p>
+<p>今天室友小叶子过了生日，在吹完蜡烛KTV里正好放着她《Just the way you are》疲惫的她就突然哭了起来，竟是那刻感动，我这颗也一直不够淡定的心也有些疼了。话题又很想转回最近向室友们大肆宣传的『特殊关系』尝试，单身也能被我炫耀的有些高贵了。可那远方的少女，你可知你多美呢。</p>
+<p>You are beautiful。</p>
+<p>弟弟的昵称居然欣然接受了，就像突然一下子觉得在这所学校呆几年也挺好，突然就爱上自己的室友和学校的朋友了。突然也觉得，友谊地久天长。谢谢对我唱功的夸赞。</p>
+<p>周六和高中同学逛街，有得有失，失而复得。</p>
+<p>等会想发一篇关于搭博客的技术博客。调皮脸。迪奥的唇蜜也到了，新的一天。</p>
 
-      <div class="post-list__meta">
-
-        <time datetime="2015-12-07" class="post-list__meta--date date">2015-12-07</time> &#8226; 
-
-        <span class="post-list__meta--tags tags">
-          <font class="categories">
-            <a class="categories-link" href="/categories/随笔/">随笔</a>
-          </font>
-          
-
-        </span>
-      </div>
-
-      <hr class="post-list__divider" />
-    </li>
-    
-    <li>
-
-      <h2 class="post-list__post-title post-title"><a href="/2015/12/01/单身日记-平静/" title="link to 单身日记-平静">单身日记-平静</a></h2>
-
-      <p class="excerpt">
         
-      </p>
-
-      <div class="post-list__meta">
-
-        <time datetime="2015-12-01" class="post-list__meta--date date">2015-12-01</time> &#8226; 
-
-        <span class="post-list__meta--tags tags">
-          <font class="categories">
-            <a class="categories-link" href="/categories/随笔/">随笔</a>
-          </font>
-          
-
-        </span>
-      </div>
-
-      <hr class="post-list__divider" />
-    </li>
-    
-    <li>
-
-      <h2 class="post-list__post-title post-title"><a href="/2015/12/01/阴天/" title="link to 阴天">阴天</a></h2>
-
-      <p class="excerpt">
         
-      </p>
-
-      <div class="post-list__meta">
-
-        <time datetime="2015-12-01" class="post-list__meta--date date">2015-12-01</time> &#8226; 
-
-        <span class="post-list__meta--tags tags">
-          <font class="categories">
-            <a class="categories-link" href="/categories/随笔/">随笔</a>
-          </font>
+        <p class="article-more-link">
           
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
 
-        </span>
-      </div>
-
-      <hr class="post-list__divider" />
-    </li>
-    
-    <li>
-
-      <h2 class="post-list__post-title post-title"><a href="/2015/11/30/回顾/" title="link to 回顾">回顾</a></h2>
-
-      <p class="excerpt">
-        
-      </p>
-
-      <div class="post-list__meta">
-
-        <time datetime="2015-11-30" class="post-list__meta--date date">2015-11-30</time> &#8226; 
-
-        <span class="post-list__meta--tags tags">
-          <font class="categories">
-            <a class="categories-link" href="/categories/随笔/">随笔</a>
-          </font>
-          
-
-        </span>
-      </div>
-
-      <hr class="post-list__divider" />
-    </li>
-    
-    <li>
-
-      <h2 class="post-list__post-title post-title"><a href="/2015/11/24/我大喜过望/" title="link to 我大喜过望">我大喜过望</a></h2>
-
-      <p class="excerpt">
-        
-      </p>
-
-      <div class="post-list__meta">
-
-        <time datetime="2015-11-24" class="post-list__meta--date date">2015-11-24</time> &#8226; 
-
-        <span class="post-list__meta--tags tags">
-          <font class="categories">
-            <a class="categories-link" href="/categories/随笔/">随笔</a>
-          </font>
-          
-
-        </span>
-      </div>
-
-      <hr class="post-list__divider" />
-    </li>
-    
-    <li>
-
-      <h2 class="post-list__post-title post-title"><a href="/2015/11/20/大梦前夜/" title="link to 大梦前夜">大梦前夜</a></h2>
-
-      <p class="excerpt">
-        
-      </p>
-
-      <div class="post-list__meta">
-
-        <time datetime="2015-11-20" class="post-list__meta--date date">2015-11-20</time> &#8226; 
-
-        <span class="post-list__meta--tags tags">
-          <font class="categories">
-            <a class="categories-link" href="/categories/随笔/">随笔</a>
-          </font>
-          
-
-        </span>
-      </div>
-
-      <hr class="post-list__divider" />
-    </li>
-    
-    <li>
-
-      <h2 class="post-list__post-title post-title"><a href="/2015/11/10/当你仍然还在幻想－活在当下/" title="link to 当你仍然还在幻想－活在当下">当你仍然还在幻想－活在当下</a></h2>
-
-      <p class="excerpt">
-        
-      </p>
-
-      <div class="post-list__meta">
-
-        <time datetime="2015-11-10" class="post-list__meta--date date">2015-11-10</time> &#8226; 
-
-        <span class="post-list__meta--tags tags">
-          <font class="categories">
-            <a class="categories-link" href="/categories/随笔/">随笔</a>
-          </font>
-          
-
-        </span>
-      </div>
-
-      <hr class="post-list__divider" />
-    </li>
-    
-    <li>
-
-      <h2 class="post-list__post-title post-title"><a href="/2015/11/08/当你仍然还在幻想－要有光/" title="link to 当你仍然还在幻想－要有光">当你仍然还在幻想－要有光</a></h2>
-
-      <p class="excerpt">
-        
-      </p>
-
-      <div class="post-list__meta">
-
-        <time datetime="2015-11-08" class="post-list__meta--date date">2015-11-08</time> &#8226; 
-
-        <span class="post-list__meta--tags tags">
-          <font class="categories">
-            <a class="categories-link" href="/categories/随笔/">随笔</a>
-          </font>
-          
-
-        </span>
-      </div>
-
-      <hr class="post-list__divider" />
-    </li>
-    
-    <li>
-
-      <h2 class="post-list__post-title post-title"><a href="/2015/11/05/当你仍然还在幻想/" title="link to 当你仍然还在幻想－悼我最亲爱的大姨父">当你仍然还在幻想－悼我最亲爱的大姨父</a></h2>
-
-      <p class="excerpt">
-        
-      </p>
-
-      <div class="post-list__meta">
-
-        <time datetime="2015-11-05" class="post-list__meta--date date">2015-11-05</time> &#8226; 
-
-        <span class="post-list__meta--tags tags">
-          <font class="categories">
-            <a class="categories-link" href="/categories/随笔/">随笔</a>
-          </font>
-          
-
-        </span>
-      </div>
-
-      <hr class="post-list__divider" />
-    </li>
-    
-    <li>
-
-      <h2 class="post-list__post-title post-title"><a href="/2015/10/27/北冬/" title="link to 北冬">北冬</a></h2>
-
-      <p class="excerpt">
-        
-      </p>
-
-      <div class="post-list__meta">
-
-        <time datetime="2015-10-27" class="post-list__meta--date date">2015-10-27</time> &#8226; 
-
-        <span class="post-list__meta--tags tags">
-          <font class="categories">
-            <a class="categories-link" href="/categories/随笔/">随笔</a>
-          </font>
-          
-
-        </span>
-      </div>
-
-      <hr class="post-list__divider" />
-    </li>
-    
-  </ol>
-
-  <hr class="post-list__divider " />
-
-<nav class="pagination" role="navigation">
-    
-
-    <span class="pagination__page-number">Page 1 of 5</span>
-    
-    
-        <a class="older-posts pagination__older btn btn-small btn-tertiary" href="/page/2/">Older Posts &rarr;</a>
-    
-</nav>
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/随笔/">随笔</a>
+</div>
 
 
 </div>
-            <footer class="footer">
-    <span class="footer__copyright">&copy; 2014. All rights reserved.</span>
-    <span class="footer__copyright"><a href="http://uno.daleanthony.com" title="link to page for Uno Ghost theme">Uno theme</a> by <a href="http://daleanthony.com" title="link to website for Dale-Anthony">Dale-Anthony</a> | Redesign by <a href="http://letiantian.me" title="">樂天</a></span>
+
+
+
+
+<div class="comments-count">
+	
+	  	<span></span>
+		<a href="/2015/12/07/给少女们。/#comments" class="ds-thread-count comments-count-link" data-thread-key="2015/12/07/给少女们。/" data-count-type="comments">&nbsp;</a>
+	
+</div>
+
 </footer>
-        </div>
-    </div>
 
-    <!-- The main JavaScript file for Casper -->
-    <script src="/js/main.js"></script>
-    <script src="/js/scale.fix.js"></script>
-    <script src="/js/jquery.imagesloaded.min.js"></script>
-    <script src="/js/gallery.js"></script>
-    <script src="/js/jquery.githubRepoWidget.min.js"></script>
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/x-mathjax-config"> 
-      MathJax.Hub.Config({ 
-        tex2jax: {inlineMath: [['[latex]','[/latex]'], ['\\(','\\)']]} 
-    }); 
-    </script>
 
-    <!--kill ie6 -->
-    <!--[if IE 6]>
-      <script src="//letskillie6.googlecode.com/svn/trunk/2/zh_CN.js"></script>
-    <![endif]-->
+    </article>
 
-    <!--  google analytics -->
-    <script>
-      // add your google analytics code here
-    </script>
 
-    <!-- totop -->
-    <div id="totop" style="position:fixed;bottom:50px;right:30px;cursor: pointer;">
-    <a title="back to top"><img style="width:30px;height:30px;" src="/images/totop.png"/></a>
-    </div>
-    <script>
-    (function($) { 
-      var upperLimit = 100;
-      var scrollElem = $('#totop');
-      var scrollSpeed = 500; 
-      scrollElem.hide();
-      $(window).scroll(function () {            
-        var scrollTop = $(document).scrollTop();       
-        if ( scrollTop > upperLimit ) {
-          $(scrollElem).stop().fadeTo(300, 1); // fade back in           
-        }else{       
-          $(scrollElem).stop().fadeTo(300, 0); // fade out
-        }
-      });
-      $(scrollElem).click(function(){
-        $('html, body').animate({scrollTop:0}, scrollSpeed); return false;
-      });
-    })(jQuery);
-    </script>
 
-    <!-- fancybox -->
+
+
+
+   
     
-    <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
-    <script src="/fancybox/jquery.fancybox.pack.js"></script>
-    <script type="text/javascript">
-      (function($){
-        $('.fancybox').fancybox();
-      })(jQuery);
-    </script>
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
     
+      <a href="/2015/12/01/单身日记-平静/" title="单身日记-平静" itemprop="url">单身日记-平静</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="https://plus.google.com/108973301705964170396## e.g. &quot;111190881341800841449&quot; for https://plus.google.com/u/0/111190881341800841449, the &quot;&quot; is needed!?rel=author" title="Vine Xio" target="_blank" itemprop="author">Vine Xio</a>
+		
+  <p class="article-time">
+    <time datetime="2015-12-01T15:05:00.000Z" itemprop="datePublished"> 发表于 2015-12-01</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <p>介于上一篇已经描述了自己的种种不幸，那么十二月第一天最后一个小时，还是来点正能量吧！</p>
+<p>对事情经过是酱紫的：突然在下载了小恩爱强势围观了之后觉得，他也挺矜持没说啥，突然就进入了分手一个关键时期-啊宝宝又想复合了。但是在对比了他和我的态度（主要是与我有关的票圈删了）之后还是受到了一些精神上的刺激。（哼我就是介么强势）想想撒娇应该没用（还是感觉是万能的）因为某一方一急起来就没辙了。但是想想如何再次复合不过也是一种逃避的方式我就算了吧。其实会不舍得但总要走向未来的。恩。以及换位思考对方也想清空脑袋好好做自己的事情。虽然计较彼此付出，但想想，其实他的投入更大，虽然是误会。失之坦然。</p>
+<p>刚刚听了一个爱情故事觉得自己是不是没有感情的动物。总是在对比。不懂得珍惜身边人。可即使身边有人却也没有动力去好好爱。</p>
+<p>就到这里把。之后再补。失落了，另外一种心事。</p>
+<p>—-2015.12.02更新—-</p>
+<p>披头士的Yesterday响起了。和好朋友聊完她爱之不得的故事，每个人的生活都有着惊喜和无奈。前一秒以为是真爱，后一秒又因为种种原因必须分离。在聊天间隙翻看他的朋友圈（我没有勇气称呼前男友），发现删掉了我们开始好朋友以及男女朋友的大部分状态。一直都在想，我不愿意祈求复合，是因为个性倔强不愿意屈服等着理想中的男友安慰，还是觉得没有希望不愿怂一把，还是觉得即使复合了那又怎么样呢。即使你回复我你爱我那又怎么样呢。我们会一直走下去吗。我不懂。到底是要地久天长，还是轰轰烈烈？细水长流我可以吗。事实证实我现在只会让对方不开心。我已经足够努力了，我只是不愿意服输。甚至在这一刻，我对他的了解也让我不足以想象他现在在做什么。这算是爱情吗。</p>
+<p>平静。安慰总让我同时思考很多，面对好友的境地也不知所措。因为结局都是放手，以及放下。不够潇洒不够成熟，始终要历练一番。其实她的事情主要让我想到的还是怎么才算爱过一个人，什么才是你爱的人。我真的真的想知道吧。也好奇一个人会怎样，会放声大哭，还是暗自啜泣。好难改变现状，还是想回到最平衡的状态，可那又怎么样呢，谁知道会不会有下一次。反反复复，最后一年又一年，青春付红豆。</p>
+<p>听着他最近听的歌。想着既然他这么想这么做了，我是不是无论怎样都是徒劳。还是很想告诉他，会疼会很在乎。听说女生刚分手会很难过而男生是后知后觉。说起来也是并无卵用的道理。不是做选择吧，曾经想听心的感觉，但是心也会骗人，因为她太善变了。</p>
+<blockquote>
+<p>寂寞也挥发这余香 原来情动正是这样</p>
+</blockquote>
+<p>我不想伤害他的。</p>
+<p>匆匆那年。</p>
+<p>于失恋第四天凌晨。</p>
+<p>君勿念。</p>
 
-</body>
-</html>
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/随笔/">随笔</a>
+</div>
+
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+	  	<span></span>
+		<a href="/2015/12/01/单身日记-平静/#comments" class="ds-thread-count comments-count-link" data-thread-key="2015/12/01/单身日记-平静/" data-count-type="comments">&nbsp;</a>
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2015/12/01/阴天/" title="阴天" itemprop="url">阴天</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="https://plus.google.com/108973301705964170396## e.g. &quot;111190881341800841449&quot; for https://plus.google.com/u/0/111190881341800841449, the &quot;&quot; is needed!?rel=author" title="Vine Xio" target="_blank" itemprop="author">Vine Xio</a>
+		
+  <p class="article-time">
+    <time datetime="2015-12-01T12:29:00.000Z" itemprop="datePublished"> 发表于 2015-12-01</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <p>打算心烦意乱的时候就写写东西吧。跟朋友形容失恋这东西就像个黑洞并不是一天就能爬出来，被回答嘴硬。确实如此。这两天从昨晚开始有些恍恍惚惚，将手里的钱全都心甘情愿掏给了别人，一夜吃土。强装豁达但也不愿屈服，总想着也能举重若轻，回到从前一个人也能好好生活的日子。</p>
+<p>重新安装了小恩爱，并且想挽回。总觉得一次吵架都是误会，但是其实是积蓄了很久的情绪，而自己不过任性忽视了而已。是不是像自己解释的那样，都不够爱。</p>
+<p>今天整理（其实删）照片的时候获得一时的宁静，看到以前小心翼翼珍藏的东西和有爱的细节。但是回顾过去也是本着展望未来的目的。现在自己还是需要成长和进步的吧。总想不一样，或者快速成长，未知还是原地的玻璃心少女。总有许多愿望，慢慢实现。</p>
+<p>明白了一个道理。始终是一个人。无论以哪种方式逃避。大学四年，两场恋爱。第一段让我开始觉得人世间两个人可以一起做很多从未想到的有趣的事情，并且打开了新的世界，虽然后知后觉。也开始变得淑女。第二段不走心了许多，却懂得付出和包容，当然最后对方忍受不了自己的小性子。但我对他们分别的感觉是什么样子呢。听说过生活大多是maintain的状态，听说过不要同情自己。</p>
+<p>即使会思念，也埋在心里把。这也算长大了呢。路仍然远。</p>
+<hr>
+<blockquote>
+<p>并没有明白全世界呢<br>这才是行走的动力嘛</p>
+</blockquote>
+
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/随笔/">随笔</a>
+</div>
+
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+	  	<span></span>
+		<a href="/2015/12/01/阴天/#comments" class="ds-thread-count comments-count-link" data-thread-key="2015/12/01/阴天/" data-count-type="comments">&nbsp;</a>
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2015/11/30/回顾/" title="回顾" itemprop="url">回顾</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="https://plus.google.com/108973301705964170396## e.g. &quot;111190881341800841449&quot; for https://plus.google.com/u/0/111190881341800841449, the &quot;&quot; is needed!?rel=author" title="Vine Xio" target="_blank" itemprop="author">Vine Xio</a>
+		
+  <p class="article-time">
+    <time datetime="2015-11-30T02:15:00.000Z" itemprop="datePublished"> 发表于 2015-11-30</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <p>逍遥叹从昨晚到今早一直单曲循环。</p>
+<p>就好像听歌也是一种病似的，急需治愈，但也有种乐在其中的桃源之乐和江湖侠气。我更愿意认为这是一种逃避。关网的我，不愿看微信的我，卸载某个情侣软件的我，慵懒的蜷缩在小小的座椅上，随意翻翻书，妄想飞越重洋。</p>
+<p>那么就呼应标题做个小总结把。关于出国，看了下截止日期不忍直视，选择了IBM实习于是直接放弃了考试，其实还是一种潜伏的迟疑不定。为了什么呢，就想不当井底之蛙出去看看更大的世界。或者，逃避，对于名校的追逐，看着同袍的本科同学红了眼吗。眼下也在意这一年两年，却始终不够踏实做好当前的每件事。这时间怕是明年就是要出，也去不了把。等。关于感情，虽然屡次想挽回以及去适应当前享受现在，仍然自己一意孤行抛下对方。是心灰意冷，还是那一点点倦。心中总藏着更好的愿望，不想过多分享。也失落对方的态度，原谅我是衡量成本效应的人。这样也好，了无牵挂。关于亲情，昨天最大的感受就是以前总觉得和亲人在同一地方是种负担，这里去那里来的，多麻烦啊。可是周末总是备受舅妈姐姐的照顾，舅妈那句『这次出去蓦蓦该会想家了』，因为确实有家的温暖，是我不懂得珍惜，所以周日上午听着她们母女的有爱互动自己有些难过。总是旁观，自己何尝没有拥有过，只是当时已惘然。关于信仰，这两天为了教会聚会把『创世纪』阅读完了。不够虔诚的我，也不知道能否负重十字架的意义。但是，那份喜悦，平静与睿智，却让我更加好奇。以及之前说过的，因为相信家人，所以相信他们的信仰。谢谢芳姐和姐夫，给我指引和启发，还有照顾。让我感觉自己被幸福包围。</p>
+<p>新年的珍惜眼前人也不知道自己完成了多少。懂得放手，懂得感恩。平安喜乐，勿忘心安。另外，新的新年愿望来了，如果可以，就出去吧，另外，也想有个对的人陪伴，和自己喜欢的人在一起。</p>
+<hr>
+<blockquote>
+<p>壮志凌云几分愁</p>
+<p>知己难逢几人留    </p>
+</blockquote>
+<p>好啦，只给自己一天失恋时间。另外，今天还有萌妹过生日呢。快乐 &gt; &lt; </p>
+
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/随笔/">随笔</a>
+</div>
+
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+	  	<span></span>
+		<a href="/2015/11/30/回顾/#comments" class="ds-thread-count comments-count-link" data-thread-key="2015/11/30/回顾/" data-count-type="comments">&nbsp;</a>
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2015/11/24/我大喜过望/" title="我大喜过望" itemprop="url">我大喜过望</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="https://plus.google.com/108973301705964170396## e.g. &quot;111190881341800841449&quot; for https://plus.google.com/u/0/111190881341800841449, the &quot;&quot; is needed!?rel=author" title="Vine Xio" target="_blank" itemprop="author">Vine Xio</a>
+		
+  <p class="article-time">
+    <time datetime="2015-11-24T15:18:00.000Z" itemprop="datePublished"> 发表于 2015-11-24</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <blockquote>
+<p>You said you never compromise</p>
+<p>When you ain’t got nothing, you got nothing to loose</p>
+<p>How does it feel, how does it feel? </p>
+<p>To be on your own, without a home </p>
+<p>Like a complete unknown, like a rolling stone </p>
+</blockquote>
+<p>当你仍然还在欢笑<br>我曾经想你想他想那野草野花</p>
+<p>我总是喜欢胡乱改歌词 假装它唱出我的内心 假装喜欢一些事情</p>
+<p>啊 比如现在四下黑暗还假装我还继续写下去</p>
+<p>这几天总会和不同的人交流（美其名曰 越来越喜欢拆穿自己了），虽然中间总免不了尴尬的小插曲，但每次结束后都会觉得给别人带来过一些启发性的东西，甚至自己也觉得学到了一些，强过孤独时候的胡思乱想。</p>
+<p>每个人身上都有用心才能看到闪闪发光的翅膀。不想矫情的输出这句话，但确实如此。昨晚突然知悉室友和同实验室学长在一起的消息。多种感觉交织在一起，是有多久没有关心这样两个人才会那么惊讶，所以缠着学长套他话。确实如那位学长所言，越来越觉得室友实在很可爱。</p>
+<p>重新翻了昨天喜欢上的一个女生以及她的关于迟到的少女时代的文章。她觉得自己在本该如何的年纪似乎错过了什么东西，也联想自己的一些经历。正好和当前很多想法吻合。现在似乎过度学习工作忽略生活，以及对自己的专业产生了怀疑，想出的解决方法无非是深度逃离。看到那句话：喂，有人说你少女哦。想到最近还有男生称呼我女神。似乎不太对，但是想对的。它们会只是迟到而不是错过吗。无论如何，我已经许下心愿了。</p>
+<p>热牛奶氤氲的后劲还在肚里热乎乎的，呆在有暖气的屋子也不会觉得寒冷。就算出去了也不害怕。泡着脚丫子只觉得真开心啊。还有就是，听着摇滚幻想着一些粉红色的东西。</p>
+
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/随笔/">随笔</a>
+</div>
+
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+	  	<span></span>
+		<a href="/2015/11/24/我大喜过望/#comments" class="ds-thread-count comments-count-link" data-thread-key="2015/11/24/我大喜过望/" data-count-type="comments">&nbsp;</a>
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2015/11/20/大梦前夜/" title="大梦前夜" itemprop="url">大梦前夜</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="https://plus.google.com/108973301705964170396## e.g. &quot;111190881341800841449&quot; for https://plus.google.com/u/0/111190881341800841449, the &quot;&quot; is needed!?rel=author" title="Vine Xio" target="_blank" itemprop="author">Vine Xio</a>
+		
+  <p class="article-time">
+    <time datetime="2015-11-20T10:40:00.000Z" itemprop="datePublished"> 发表于 2015-11-20</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <p>如果说什么可以抵消现在作为吃土少女打了一个要做蛮久的优步的寂寞的话唯有题笔写字聊以慰藉。以前从未有过如现在介于现实虚幻的生活，表面看起来很忙其实内心很空虚，但是按照世俗的眼光比对过去任何一个时候不得不说现在是最好时代，不能停，药也不能停。也只是有参照物的时候吧。</p>
+<p>突然觉得初中那种游走的行文风格现在依旧承袭着，没有进步也是没啥退步。十年前也活该是现在这副模样，挥斥方遒嘛肯定不是。倒是少年不识愁滋味欲更上一层楼啊。就像迷恋飞轮海。昨天还念想着痴汉脸其实不过自欺欺人。可现实世界总觉得太乏味。直到有个姑娘的世界让我觉得姑娘你是主吗让我看见了光。</p>
+<p>后来逐渐静默了，捂着自己不让别人看见自己心长啥样。就算真实也会过分表现对别人的感觉，青春期还没过期的最后挣扎。也会觉得寂寞，当年还不知道它和孤独的区别。</p>
+<p>就好像一直朝着预设的道路走去就会怎么样似的，其实不然。突然也会郭敬明的矫情和朴树的童真以及赵雷的真实披头士的不羁周杰伦的小心思。似乎一种叫自由的东西一直吸引着我，然后我就盲人摸象的走去。</p>
+<p>害怕自己过的不是自己，怀疑一直邯郸学步到现在。对生活本身的认识跟视力看到的世界一样越来越模糊，离起点太远了，但速度还没上去。不甘心也回回首，对当下最不走心。</p>
+<p>眼下忙的都没空反驳自己，自虐变成了最好的表达形式，搞到神经衰弱才够。别吃了青春的迷药，咱们都是百分百的大傻子。</p>
+<p>直到把喜欢退化成无能。</p>
+
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/随笔/">随笔</a>
+</div>
+
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+	  	<span></span>
+		<a href="/2015/11/20/大梦前夜/#comments" class="ds-thread-count comments-count-link" data-thread-key="2015/11/20/大梦前夜/" data-count-type="comments">&nbsp;</a>
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2015/11/10/当你仍然还在幻想－活在当下/" title="当你仍然还在幻想－活在当下" itemprop="url">当你仍然还在幻想－活在当下</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="https://plus.google.com/108973301705964170396## e.g. &quot;111190881341800841449&quot; for https://plus.google.com/u/0/111190881341800841449, the &quot;&quot; is needed!?rel=author" title="Vine Xio" target="_blank" itemprop="author">Vine Xio</a>
+		
+  <p class="article-time">
+    <time datetime="2015-11-10T14:48:00.000Z" itemprop="datePublished"> 发表于 2015-11-10</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <p>光棍节的前一天，本来后知后觉不在意的我也因为一个4000的单反和1000的kindle焦虑起来。</p>
+<p>自从把经济问题当成主要矛盾之后，似乎就一直变成一个心结。也会不知觉的世俗念叨起来，看着自己一见钟情或者蓄谋已久的物品却无计可施。这大概和无能为力的感觉有的一拼。身边的朋友也有烦恼，或者表面看起来还算自在，也许是我，不够知足。似乎从来没有满意的一天。</p>
+<p>生活不应该过得复杂，应该简单的清澈见底不是吗。遑论学术的深度广度，还是专注其中好过四处观望。</p>
+<p>这两天发生的很多事启迪了不少。花了一些时间在寝室和新室友玩闹，发现她们确实都很可爱，简简单单以自己的方式热爱生活，对学习也不像我丝毫不上心反而认真对待，中国好学校优秀学生大概如是。我又是个自以为什么样的浪子游客呢。</p>
+<p>你一点都不特别。</p>
+<p>今晚在图书馆呆了快一小时，获得的是久违的宁静与安详。也许，安安静静读点书才真的适合我呢，想那么多是为了更快新陈代谢吗！</p>
+<p>想做一个单纯的小孩，没有那么多顾忌。</p>
+<p>明天要开始健身了（想说健身日记可以继续下去了/微笑脸</p>
+<blockquote>
+<p>乐土乐土，爰得我所。</p>
+</blockquote>
+<p>开心就好啊</p>
+<p>（本来有很多话，怎么了呢全都收回去了，大概想守护小小的安静吧，热爱生活吧，少年。）</p>
+
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/随笔/">随笔</a>
+</div>
+
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+	  	<span></span>
+		<a href="/2015/11/10/当你仍然还在幻想－活在当下/#comments" class="ds-thread-count comments-count-link" data-thread-key="2015/11/10/当你仍然还在幻想－活在当下/" data-count-type="comments">&nbsp;</a>
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2015/11/08/当你仍然还在幻想－要有光/" title="当你仍然还在幻想－要有光" itemprop="url">当你仍然还在幻想－要有光</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="https://plus.google.com/108973301705964170396## e.g. &quot;111190881341800841449&quot; for https://plus.google.com/u/0/111190881341800841449, the &quot;&quot; is needed!?rel=author" title="Vine Xio" target="_blank" itemprop="author">Vine Xio</a>
+		
+  <p class="article-time">
+    <time datetime="2015-11-08T13:48:00.000Z" itemprop="datePublished"> 发表于 2015-11-08</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <blockquote>
+<p>我听见那天堂鸟已开始了歌唱 跑过来又跑过去的风还在游荡。</p>
+</blockquote>
+<p>原以为自己足够冷酷无情能够秒切换冷热直接越阶，没想到这周末因为姨父的事情自己也没想到的脆弱起来，亲人真的是你的软肋。何况是照顾过你的家人，回到他家会恋恋不舍的人。留下只有思念，一串串，永远缠。</p>
+<p>今天在洗澡似乎有种洗礼的感觉，虽然对后者没有什么概念，往事一一浮现，情感随赤裸的身体也袒露出来没有遮掩。上午礼拜十分认同灵魂永生的理念，但那个时候突然对这个事实迟钝起来，有些无法接受事实。无法接受看不到听不到吃不到的事实。但事实是，他们远去了。</p>
+<p>这段时间一直感动着，也开始学着信任，不再倨傲。想改变自己对于生死的认识，想换种思考的态度，早上无意随了姐姐一家以及桂华姐一起去平常他们去的兄弟姊妹聚会。听着主耶稣和圣经的故事，听到原罪和忏悔，听到姨父对主的信仰，想到他身上的十字架，想到他离世的祥和平静。想到自己或许也想共同感受那份感受。于是我做了祷告，做了主的子女。我的描述是：多了一个可以说说话的朋友，多了一份坚定不悲伤的信念。</p>
+<p>奇妙。</p>
+<p>早上也听了许多关于信仰和奇妙的故事，也联想到发生在自己生活中自认为奇妙的故事。今天在拥有信仰之后也算是切身有了体悟，凡事有了三思，开始谦和平静，与朋友聊天不急不躁，整体变的更加真实，凹凸有致。感恩。也更加思念故去的亲友。珍惜当下。</p>
+<p>特别想提昨天一件事情，居然无意中糊里糊涂看完了与披头士歌曲金色梦乡有关的日本作家同名作品改编电影，而且还是比较火（主要是我居然知道）雅人叔演的，中间好多没看所以没懂剧情，日本文艺电影往往有些神经质的小清新又不失重口背景。不过大概是有趣。伴随一声爆炸的golden slumber摇滚到我心里。看着姐姐家客厅亮着灯一阵满足。</p>
+<p>不要轻易悲伤。</p>
+<p>阿门。</p>
+
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/随笔/">随笔</a>
+</div>
+
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+	  	<span></span>
+		<a href="/2015/11/08/当你仍然还在幻想－要有光/#comments" class="ds-thread-count comments-count-link" data-thread-key="2015/11/08/当你仍然还在幻想－要有光/" data-count-type="comments">&nbsp;</a>
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2015/11/05/当你仍然还在幻想/" title="当你仍然还在幻想－悼我最亲爱的大姨父" itemprop="url">当你仍然还在幻想－悼我最亲爱的大姨父</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="https://plus.google.com/108973301705964170396## e.g. &quot;111190881341800841449&quot; for https://plus.google.com/u/0/111190881341800841449, the &quot;&quot; is needed!?rel=author" title="Vine Xio" target="_blank" itemprop="author">Vine Xio</a>
+		
+  <p class="article-time">
+    <time datetime="2015-11-04T17:21:00.000Z" itemprop="datePublished"> 发表于 2015-11-05</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <blockquote>
+<p>May the force be with you.</p>
+</blockquote>
+<p>又有一段时间没更了。大半夜的，怀着拖延的心态将几篇压缩在一篇连题目都是从歌词随机抽取的博客里头，有些失落却也坦然。就像那首歌唱的，取了就不能舍。</p>
+<p>今天白天懒懒散散恍恍惚惚，昨晚赶due慢吞吞抄完了通信原理的作业连交作业都拜托好朋友了。第二天上班也一直专注不了状态。浮躁和操切，从来都不曾离去。灰蒙蒙的天空里，还有怎么也起不来的心绪。开心就好那句话，不知不觉又被许多todos掩盖的不值一提。</p>
+<p>前天上英语课同时被爸妈电话轰炸，还以为家里又有什么轶事值得兴师动众的。漫不经心继续听自己的听力然后浪着小心情，瞬的转念一想难道是不好的事情…顿时心情整个压抑下来感觉什么都不好了在作业本上用蓝色水笔不停沿着水平线画出密麻重叠大叉。拒接了之后短信爸爸收到一行字眼：大姨父去世了，问下情况。好久没有的难受和热泪一起涌了上来，还有重重的自责和遗憾。本来上午就想去的，怎么就能睡到中午呢，在这件事情上也尽可能拖，自己是有多自私。姨父！还是觉得意外，还是鲜活和慈祥和蔼的形象在眼眶里打转。</p>
+<p>想到很早以前的事情。想到七岁那年三岁见过唯一一面亲奶奶去世爸爸不让我去，当时可能意识就停留在这个老人以后也不会再见了吧。后来是一个几面之缘的邻居小朋友煤气中毒，那天吓得觉也不敢睡，小孩子想象力<br>太丰富也不好。青春期印象比较深的就是妈妈办公室那个平时笑吟吟对我客客气气的大伯所长因为脑溢血离世了，我现在还能去按照当时大家以讹传讹的描述想象他倒在家里<br>画面，那也是第一次想写文章纪念一个人，因为感觉失去也会想念。后来慢慢长大了，也有过<br>侍奉病房亲人的体验，懂得了生命太可贵。09年外公去世了，数学课本那一页几何代数题都是我的眼泪。<br>妈妈说，以后学医吧，我说好。</p>
+<p>然而最后还是没有学医，来到了加班死的技工专业。这个不遗憾，有梦想永远不嫌晚，</p>
+<p>双十一其实是一个让我悲伤的节日。2014年我的不幸和叔叔的车祸都交叠在前一天。<br>突然失去一个年轻的生命，特别是当拿到尸检书和到面前时，那种心灵上的震撼，<br>戳心疼。以前总叫唤着遗憾没有“送过人”的我，也在自己家乡披麻戴孝。感觉他还在昨天和我聊过天。<br>也总觉得，他们比我更坚强。</p>
+<p>他们对我的意义都是不言而喻的。他们对我都很好。但是以后再也见不到了，<br>虽然不喜欢每天都见面，但是想想，以后看到的只是静态的画面，<br>他再也没法夸你和你聊天鼓励你了。就觉得万分难过。写到这里<br>想到几年前悲伤过度意外去世的一个永远笑的很灿烂的姑姑，希望你们在天堂都快乐。</p>
+<p>停一下，还是接受不了姨父的去世，即使早就有些准备，但是<br>他的声音和神态一直在我脑跟前。那个做早餐面条很好吃的人，那个<br>吐槽我晚上不关灯然后总半夜起来帮我关灯的人，那个带我吃南昌炒/拌粉<br>的人，那个在飞机上对着镜头微笑的人，那个我觉得很帅很高的人，那个总为自己女儿骄傲的人，那个觉得颖颖会很有出息的人，那个今天翻了下亲人群微信名叫涛涛的人。</p>
+<p>不知道姨妈现在怎么样。两个月的辛苦，最后只剩下冰冷么。主。<br>抱着她的时候，也不知道怎么温暖，只能一起难过。</p>
+<p>想哭。</p>
+<p>想念您！！！！</p>
+<blockquote>
+<p>我会去接受事实，我也希望我能做一些些改变，我希望我们开心，<br>都好好的。我希望我们无论生死，无论在哪，都不孤单，同时，都把<br>最亲的人放在心里，永远也不会忘记。</p>
+</blockquote>
+
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/随笔/">随笔</a>
+</div>
+
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+	  	<span></span>
+		<a href="/2015/11/05/当你仍然还在幻想/#comments" class="ds-thread-count comments-count-link" data-thread-key="2015/11/05/当你仍然还在幻想/" data-count-type="comments">&nbsp;</a>
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2015/10/27/北冬/" title="北冬" itemprop="url">北冬</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="https://plus.google.com/108973301705964170396## e.g. &quot;111190881341800841449&quot; for https://plus.google.com/u/0/111190881341800841449, the &quot;&quot; is needed!?rel=author" title="Vine Xio" target="_blank" itemprop="author">Vine Xio</a>
+		
+  <p class="article-time">
+    <time datetime="2015-10-27T08:56:00.000Z" itemprop="datePublished"> 发表于 2015-10-27</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <p>无论在哪里的家人同学朋友，都进入了自己的秋冬时期。天气渐渐寒冷起来，还有很多事情也逐渐急上眉头。</p>
+<p>刚刚结束了sf hackathon，就好像热情到了第二次就会过期，这次结束后给我的感觉就是不能再为了猎奇而忽视本质问题了。回顾在北京又呆了快四个月，似乎除了花样变多了人更辛苦了却也没有其他。</p>
+<p>用sublime调大字体写markdown，果然感觉很奇妙。依然是两个月前周杰伦撩动心弦的歌，此时却很想很想回到过去。不知道是出于对未来的害怕和焦虑，还是喜欢沉入思念的湖底保持不动，这样也就无谓能量的虚耗了吧。前一秒钟还在感叹自己的无能，其实更担心自己抓不住青春。</p>
+<p>不把博客公开也挺好，可以自由的敞开了说。到了大学更加习惯刻板逻辑的思考和对名利的追逐，但童心还让我维持着一种自诩幼稚的纯洁。到了研究生阶段，恐怕最大的感受就是为了最大化自己的利益和孤独了。但想想身边的同龄人不是优秀就是努力，也找不到理由辩驳。拿不出“你还不错，你已经很努力了”来减慢想想，总能找到自己的缺陷然后不允许自己不问世事终成庸人。</p>
+<p>今天再次关心了留学的事情。想起很久朋友说的一句话，人生活无时无刻不在选择。所以今天谷歌的内容是“留学英国”，我只扫了一遍剑桥。还打算随便看看就回寝室收拾衣服然后理个发就去约个饭谈谈赚钱的事情。事实证明不知不觉down到delay。所以打算写作平静会。</p>
+<p>梳理下思路。能力方面，自己不够能做好一件事。所以明天的实习担心自己不够好，同时害怕自己唯一大学的课程都要错过大半，想想这里就不由捶胸顿足。在新学校有种落差感始终不能消退，对于我这种对比爱好者简直无法消散。研究生开始才想着出国想着离开这里，冷水接住了最后在自己能力还不够这一关开始溃散。并非善变只是害怕自己不够好。人生没有重来，但此刻真的觉得自己需要重新开始好好想想。社交方面，永远怯弱不够自信，表面的character都是浮云。“－你为什么要去爬哪座山－因为山就在那里”。容易过度沉迷又邯郸学步。感情方面，放不下也下不了决心，随性没有责任感。大概是疯狂一把，才敢说不负我这傲娇着的年<br>轻。渴望太多，不会享受的现在会不会也终将遗憾呢。健康方面，以后只会好好照顾自己，尽量努力，保持青春的模样。</p>
+<p>21岁的我，矛盾又充满过度疯狂的热情，随时热泪盈眶却也感性着，害怕却也踏上行程，这个城市承载了太多关于成长的梦想却也一派胡言并无卵用，随时准备借力离开，可终有一天还会想念这里的热闹。不知道许多年以后，我会在哪，我关心的人们有会在飘散何方，我又会不会是另外一个我。而我今天藏在兜里的心事，埋在外套的小心思，又会不会实现？</p>
+<p>此时最大的心愿就是一直坐在教室里，学习到地老天荒。</p>
+<hr>
+<p>我会是个好学生。我也会实现我的梦想。我还会一直疯狂下去。       </p>
+
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/随笔/">随笔</a>
+</div>
+
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+	  	<span></span>
+		<a href="/2015/10/27/北冬/#comments" class="ds-thread-count comments-count-link" data-thread-key="2015/10/27/北冬/" data-count-type="comments">&nbsp;</a>
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+
+  <nav id="page-nav" class="clearfix">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/">5</a><a class="extend next" rel="next" href="/page/2/">Next<span></span></a>
+  </nav>
+
+</div>
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">分类</p>
+		<ul>
+		
+		  
+			<li><a href="/categories/总结/" title="总结">总结<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/打卡/" title="打卡">打卡<sup>5</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/随笔/" title="随笔">随笔<sup>35</sup></a></li>
+		  
+		
+		</ul>
+</div>
+
+
+  
+
+  
+
+  
+<div class="github-card">
+<p class="asidetitle">Github 名片</p>
+<div class="github-card" data-github="VineINDalvik## e.g. wuchong for https://github.com/wuchong" data-width="220" data-height="119" data-theme="medium">
+<script type="text/javascript" src="//cdn.jsdelivr.net/github-cards/latest/widget.js" ></script>
+</div>
+  </div>
+
+
+
+  <div class="linkslist">
+  <p class="asidetitle">友情链接</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="http://wuchong.me" target="_blank" title="Jark&#39;s Blog">Jark&#39;s Blog</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://bbs.byr.cn/" target="_blank" title="bupt-bbs">bupt-bbs</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://toutiao.io/" target="_blank" title="toutiao">toutiao</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://www.msra.cn/" target="_blank" title="MSRA">MSRA</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="https://scholar.google.com/schhp?hl=zh-CN" target="_blank" title="scholar">scholar</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  
+
+<div class="doubanshow">
+<p class="asidetitle">豆瓣秀</p>
+<div>
+<script type="text/javascript" src="http://www.douban.com/service/badge/98610936## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014/?show=collection&amp;n=12&amp;columns=3&amp;hidelogo=yes&amp;hideself=yes&amp;cat=book|movie" ></script>
+</div>
+</div>
+
+
+  <div class="weiboshow">
+  <p class="asidetitle">新浪微博</p>
+    <iframe width="100%" height="119" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=119&fansRow=2&ptype=1&speed=0&skin=9&isTitle=1&noborder=1&isWeibo=0&isFans=0&uid=2294284650## e.g. 2176287895  Your weibo ID,It will be used in share button.&verifier=3f14a54d&dpc=1"></iframe>
+</div>
+
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> Hello ,I&#39;m Vine. <br/>
+			On the Road.</p>
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		<a href="http://weibo.com/2294284650" target="_blank" class="icon-weibo" title="微博"></a>
+		
+		
+		<a href="https://github.com/VineINDalvik## e.g. wuchong for https://github.com/wuchong" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		<a href="http://stackoverflow.com/users/5088931## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark" target="_blank" class="icon-stack-overflow" title="stackoverflow"></a>
+		
+		
+		<a href="https://twitter.com/VineXiong## e.g. jarkwu for https://twitter.com/jarkwu" target="_blank" class="icon-twitter" title="twitter"></a>
+		
+		
+		<a href="https://www.facebook.com/vine.xio## e.g. imjark for https://facebook.com/imjark" target="_blank" class="icon-facebook" title="facebook"></a>
+		
+		
+		<a href="https://www.linkedin.com/in/yeying-xiong-19b576a6## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014" target="_blank" class="icon-linkedin" title="linkedin"></a>
+		
+		
+		<a href="https://www.douban.com/people/98610936## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014" target="_blank" class="icon-douban" title="豆瓣"></a>
+		
+		
+		<a href="http://www.zhihu.com/people/vine-56## e.g. jark  for http://www.zhihu.com/people/jark" target="_blank" class="icon-zhihu" title="知乎"></a>
+		
+		
+		<a href="https://plus.google.com/108973301705964170396## e.g. &quot;111190881341800841449&quot; for https://plus.google.com/u/0/111190881341800841449, the &quot;&quot; is needed!?rel=author" target="_blank" class="icon-google_plus" title="Google+"></a>
+		
+		
+		<a href="mailto:whuvinexio@gmail.com## e.g. imjark@gmail.com" target="_blank" class="icon-email" title="Email Me"></a>
+		
+	</div>
+			
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2015 
+		
+		<a href="/about" target="_blank" title="Vine Xio">Vine Xio</a>
+		
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/jquery.qrcode-0.12.0.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+        
+    }
+  });
+});
+</script>
+
+
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"vinexio## e.g. wuchong   your duoshuo short name."};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
+
+
+<script type="text/javascript">
+
+var disqus_shortname = 'vinexio## e.g. wuchong   your disqus short name.';
+
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?e6d1f421bbc9962127a50488f9ed37d1";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop">
+	<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+	</div>
+	<script src="/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Tiny_search Begin -->
+
+<!-- Tiny_search End -->
+
+  </body>
+ </html>
